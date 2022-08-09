@@ -9,18 +9,20 @@
 }
 
 body {
-    background-color: #F2F2F2;
-    color: #F2F2F2;
+    background-color: #CCBDAF;
+    color: whitesmoke;
     font-family: 'Merriweather Sans' serif;    
 }
 .card-left {
+    position: relative;
+    width: 100%;
     max-width: 348px;
-    height: 1700px;
+    height: 1660px;
     display: flex;
     align-items: center;
     justify-content: top;
     flex-direction: column;
-    background: #585858;        
+    background: #827970;        
     font-weight: 700;
     font-size: 13px;
     line-height: 29px;
@@ -31,11 +33,13 @@ body {
 .card-left img {
     border-radius: 100%;
     box-shadow: 2px 2px 2px 2px rgba(0.3, 0.3, 0.3, 0.3);
+    max-width: 100%;
 }
 .primeira-tarja {    
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     height: 30px;
-    background-color: #1C1C1C;
+    background-color: #332F2C;
     box-shadow: 2px 2px 2px 2px rgba(0.3, 0.3, 0.3, 0.3);
     margin-top: 20px;
     border-radius: 5px;
@@ -51,9 +55,10 @@ body {
     font-size: 18px;
 }
 .segunda-tarja {
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     height: 30px;
-    background-color: #1C1C1C;
+    background-color: #332F2C;
     box-shadow: 2px 2px 2px 2px rgba(0.3, 0.3, 0.3, 0.3);
     margin-top: 10px;
     border-radius: 5px;
@@ -69,9 +74,10 @@ body {
     font-size: 17px;
 }
 .terceira-tarja {
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     height: 30px;
-    background-color: #1C1C1C;
+    background-color: #332F2C;
     box-shadow: 2px 2px 2px 2px rgba(0.3, 0.3, 0.3, 0.3);
     margin-top: 10px;
     border-radius: 5px;
@@ -90,6 +96,28 @@ body {
     text-align: center;
     font-size: 18px;
     border-bottom: solid 4px;
-    border-color: #1C1C1C;        
+    border-color: #332F2C;        
+}
+.card-right {
+    position: absolute;
+    width: 952px;
+    height: 210px;
+    left: 378px;
+    top: 15px;
+    background: #827970;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.card-right img {
+    margin-top: 15px;
+    margin-left: 38px;
+}
+.card-right h1 {
+    margin-top: 30px;
+    text-align: center;
+}
+.card-right h2 {
+    margin-top: 25px; 
+    text-align: center;
 }
 
