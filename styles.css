@@ -1,6 +1,10 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;700&display=swap');
-@media screen and (min-width: 348px) and (orientation: landscape) { nav { float: left; } } 
+
+@media screen and (min-width: 348px) and (orientation: landscape) {
+    nav {
+        float: left;
+    }
+}
 
 * {
     margin: 0;
@@ -11,8 +15,9 @@
 body {
     background-color: #CCBDAF;
     color: whitesmoke;
-    font-family: 'Merriweather Sans' serif;    
+    font-family: 'Merriweather Sans' serif;
 }
+
 .card-left {
     position: relative;
     width: 100%;
@@ -22,7 +27,7 @@ body {
     align-items: center;
     justify-content: top;
     flex-direction: column;
-    background: #827970;        
+    background: #827970;
     font-weight: 700;
     font-size: 13px;
     line-height: 29px;
@@ -30,12 +35,14 @@ body {
     margin: 15px;
     border-radius: 5px;
 }
+
 .card-left img {
     border-radius: 100%;
     box-shadow: 2px 2px 2px 2px rgba(0.3, 0.3, 0.3, 0.3);
     max-width: 100%;
 }
-.primeira-tarja {    
+
+.primeira-tarja {
     width: 100%;
     max-width: 300px;
     height: 30px;
@@ -44,16 +51,19 @@ body {
     margin-top: 20px;
     border-radius: 5px;
 }
+
 .primeira-tarja h2 {
     text-align: center;
     border-top: 20px;
     font-size: 23px;
 }
+
 .textos {
     margin-left: 20px;
     margin-top: 10px;
     font-size: 18px;
 }
+
 .segunda-tarja {
     width: 100%;
     max-width: 300px;
@@ -63,16 +73,20 @@ body {
     margin-top: 10px;
     border-radius: 5px;
 }
+
 .segunda-tarja h2 {
     font-size: 23px;
 }
+
 .segundo-texto {
     margin-left: 20px;
     margin-top: 10px;
 }
+
 .segundo-texto li {
     font-size: 17px;
 }
+
 .terceira-tarja {
     width: 100%;
     max-width: 300px;
@@ -82,22 +96,27 @@ body {
     margin-top: 10px;
     border-radius: 5px;
 }
+
 .terceira-tarja h2 {
     font-size: 23px;
 }
+
 .terceiro-texto {
     margin-left: 20px;
     margin-top: 10px;
 }
+
 .terceiro-texto li {
     font-size: 17px;
 }
+
 .terceiro-texto h4 {
     text-align: center;
     font-size: 18px;
     border-bottom: solid 4px;
-    border-color: #332F2C;        
+    border-color: #332F2C;
 }
+
 .card-right {
     position: absolute;
     width: 952px;
@@ -105,19 +124,56 @@ body {
     left: 378px;
     top: 15px;
     background: #827970;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 2px 2px rgba(0.3, 0.3, 0.3, 0.3);
     border-radius: 5px;
 }
+
 .card-right img {
     margin-top: 15px;
     margin-left: 38px;
 }
+
 .card-right h1 {
     margin-top: 30px;
     text-align: center;
 }
+
 .card-right h2 {
-    margin-top: 25px; 
+    margin-top: 25px;
     text-align: center;
 }
 
+.card-right-segundo {
+    position: absolute;
+    width: 952px;
+    height: 150px;
+    left: 378px;
+    top: 240px;
+
+    background: #827970;
+    box-shadow: 2px 2px 2px 2px rgba(0.3, 0.3, 0.3, 0.3);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-right-segundo a {
+    font-size: 20px;
+    color: whitesmoke;
+    padding: 70px;
+}
+.card-projetos {
+    position: absolute;
+    width: 952px;
+    height: 150px;
+    left: 378px;
+    top: 405px;
+
+    background: #827970;
+    box-shadow: 2px 2px 2px 2px rgba(0.3, 0.3, 0.3, 0.3);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
