@@ -166,14 +166,38 @@ body {
 .card-projetos {
     position: absolute;
     width: 952px;
-    height: 150px;
+    
     left: 378px;
     top: 405px;
-
     background: #827970;
     box-shadow: 2px 2px 2px 2px rgba(0.3, 0.3, 0.3, 0.3);
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
+    border-radius: 5px;     
     justify-content: center;
+    margin-right: 15px;
+    
+}
+.titulo {
+    margin-top: 15px;
+    height: 70px;
+    text-align: center;
+       
+}
+.projetos {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+}
+.cardp {    
+    background-color: #332F2C;
+    height: 200px;
+    width: 400px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    margin-left: 35px;
+    box-shadow: 2px 2px 2px 2px rgba(0.3, 0.3, 0.3, 0.3);
+}
+.cardp a {
+    color: whitesmoke;
+    text-align: center;
+      
 }
