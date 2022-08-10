@@ -118,6 +118,7 @@ body {
 }
 
 .card-right {
+    margin-right: 15px;
     position: absolute;
     width: 952px;
     height: 210px;
@@ -144,6 +145,7 @@ body {
 }
 
 .card-right-segundo {
+    margin-right: 15px;
     position: absolute;
     width: 952px;
     height: 150px;
@@ -166,7 +168,7 @@ body {
 .card-projetos {
     position: absolute;
     width: 952px;
-    
+    margin-right: 15px;
     left: 378px;
     top: 405px;
     background: #827970;
