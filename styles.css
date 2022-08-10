@@ -184,7 +184,7 @@ body {
 .projetos {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-bottom: 18px;
+    padding-bottom: 30px;
 }
 .cardp {    
     background-color: #332F2C;
