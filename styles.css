@@ -22,7 +22,7 @@ body {
     position: relative;
     width: 100%;
     max-width: 348px;
-    height: 1660px;
+    height: 1690px;
     display: flex;
     align-items: center;
     justify-content: top;
@@ -173,6 +173,7 @@ body {
     box-shadow: 2px 2px 2px 2px rgba(0.3, 0.3, 0.3, 0.3);
     border-radius: 5px;     
     justify-content: center;
+    text-align: center;
     margin-right: 15px;
     
 }
